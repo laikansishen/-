@@ -1,0 +1,17 @@
+git管理步骤：
+	1、进入要管理的文件夹（进入）
+	2、初始化（提名）：git init
+ 	3、管理:git add "对应文件名称" （管理指定的文件）; git add .（管理所有的文件）
+	4、生成版本:git commit -m 'v1'
+	若报错可执行如下命令
+	Run
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got '86157@DESKTOP-PNU5FJ3.(none)')
+
+	
+	
